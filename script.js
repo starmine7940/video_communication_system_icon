@@ -19,7 +19,7 @@ const Peer = window.Peer;
 
     const localStream = await navigator.mediaDevices.getUserMedia({
         video: true,
-        audio: false,
+        audio: true,
     });
     myVideo.srcObject = localStream;
     
